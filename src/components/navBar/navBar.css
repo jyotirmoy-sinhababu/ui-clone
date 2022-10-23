@@ -1,0 +1,15 @@
+.nav-cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px;
+}
+
+.nav-btn {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.btn {
+  border: none;
+}
