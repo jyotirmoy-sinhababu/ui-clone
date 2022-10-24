@@ -1,14 +1,31 @@
 .header-cnt {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20px 20px 20px;
+  gap: 20px;
   justify-content: space-around;
+  align-items: center;
+  padding-right: 150px;
 }
 
 .header-content {
   display: flex;
+  align-items: center;
   gap: 10px;
-  width: 200px;
+  width: 360px;
   height: 60px;
   border-radius: 7px;
   background-color: aliceblue;
   z-index: 1;
+}
+
+.header-content-btn {
+  display: flex;
+  border: none;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.header-svg {
+  width: 50px;
+  height: 35px;
 }
