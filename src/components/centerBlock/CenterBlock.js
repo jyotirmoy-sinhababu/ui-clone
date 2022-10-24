@@ -1,10 +1,11 @@
-import React from 'react';
 import NavBar from '../navBar/NavBar';
 import Header from '../utils/Header';
 
+// import BarChat from '../utils/barChat/BarChat';
+
 const CenterBlock = () => {
   return (
-    <>
+    <div>
       <div>
         <NavBar />
       </div>
@@ -12,8 +13,9 @@ const CenterBlock = () => {
         <div>
           <Header />
         </div>
+        <div>{/* <BarChat /> */}</div>
       </div>
-    </>
+    </div>
   );
 };
 
