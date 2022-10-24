@@ -4,9 +4,9 @@ import './header.css';
 const Header = () => {
   return (
     <>
-      <div>
+      <div className='header-cnt'>
         {' '}
-        <div>
+        <div className='header-content'>
           <button>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -21,7 +21,7 @@ const Header = () => {
           </button>
           <p>Revenue</p>
         </div>
-        <div>
+        <div className='header-content'>
           <button>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -36,7 +36,7 @@ const Header = () => {
           </button>
           <p>Orders</p>
         </div>
-        <div>
+        <div className='header-content'>
           <button>
             <svg
               xmlns='http://www.w3.org/2000/svg'

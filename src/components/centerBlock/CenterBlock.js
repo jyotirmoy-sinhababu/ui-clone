@@ -9,7 +9,9 @@ const CenterBlock = () => {
         <NavBar />
       </div>
       <div>
-        <Header />
+        <div>
+          <Header />
+        </div>
       </div>
     </>
   );

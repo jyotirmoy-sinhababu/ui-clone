@@ -1,0 +1,14 @@
+.header-cnt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-content {
+  display: flex;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 7px;
+  background-color: aliceblue;
+  z-index: 1;
+}
